@@ -1,0 +1,45 @@
+* {
+    font-family: helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: darkslategrey;
+}
+
+#mom {
+    display: grid;
+    grid-gap: 20px;
+    min-width: 500px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    grid-template-columns: auto 300px;
+}
+
+#redbutton {
+    background-color: red; 
+}
+
+#greenbutton {
+    background-color: green;    
+}
+
+#bluebutton {
+    background-color: blue;
+}
+
+#resultbox{
+    grid-column: 2 / 3; 
+    grid-row: 1 / 4;
+    border: 3px solid darkslategrey;
+}
+
+.button {
+    grid-column: 1 / 2;
+    padding: 20px;
+    transition-duration: 0.25s;
+}
+
+/* ---Uncomment the lines below if you'd like some impressive interactivity with just a few lines of code--- */
+/*.button:hover {*/
+/*    transform: scale(1.04);*/
+/*    color: #222222;*/
+/*}*/
